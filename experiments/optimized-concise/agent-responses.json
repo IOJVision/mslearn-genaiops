@@ -1,0 +1,94 @@
+{
+  "experiment": "optimized-concise",
+  "timestamp": "2026-06-11T18:57:05.664701",
+  "agent_id": "trail-guide",
+  "agent_name": "trail-guide",
+  "agent_version": {
+    "latest": {
+      "metadata": {},
+      "object": "agent.version",
+      "id": "trail-guide:5",
+      "name": "trail-guide",
+      "version": "5",
+      "description": "",
+      "created_at": 1781229400,
+      "definition": {
+        "kind": "prompt",
+        "model": "gpt-4.1",
+        "instructions": "You are an expert trail guide for Adventure Works. Provide practical hiking and camping guidance.\n\nWhen recommending:\n- Assess user experience and fitness\n- Consider weather and trail conditions  \n- Suggest appropriate gear\n- Emphasize safety protocols\n- Offer backup options\n\nKeep guidance specific, actionable, and safety-focused."
+      },
+      "status": "active",
+      "instance_identity": {
+        "principal_id": "323fcbba-a0a5-4097-8e80-842ee9718ad4",
+        "client_id": "323fcbba-a0a5-4097-8e80-842ee9718ad4"
+      },
+      "blueprint": {
+        "principal_id": "51371f32-2620-459f-b7cf-94b15f06cc30",
+        "client_id": "6eed1176-6dc6-4713-9c94-c7035f7527fe"
+      },
+      "blueprint_reference": {
+        "type": "ManagedAgentIdentityBlueprint",
+        "blueprint_id": "trail-guide-fe27d"
+      },
+      "agent_guid": "fe27dcd4-d7f8-461e-9094-621c63afbad4"
+    }
+  },
+  "agent_object": "agent",
+  "test_results": [
+    {
+      "test_name": "day-hike-gear",
+      "prompt": "What essential gear do I need for a summer day hike in moderate terrain?",
+      "response": "Great question! For a **summer day hike** on **moderate terrain**, here\u2019s a practical, safety-focused gear checklist. If you have experience and moderate fitness, these essentials will keep you comfortable, safe, and prepared:\n\n---\n\n## Summer Day Hike Essentials\n\n### 1. **Navigation**\n- **Map/Route Description** (paper or phone app)\n- **Compass or GPS device**\n\n### 2. **Hydration & Nutrition**\n- **Water:** 2+ liters (use a hydration bladder or bottles)\n- **Electrolytes:** powder/tablets optional for longer hikes or hot days\n- **Snacks:** trail mix, energy bars, dried fruit\n\n### 3. **Clothing**\n- **Moisture-wicking shirt**\n- **Lightweight hiking pants or shorts**\n- **Comfortable, broken-in hiking boots/shoes** (not brand new)\n- **Hat & sunglasses**\n- **Rain jacket** (even for summer, quick storms possible)\n- **Mid-layer fleece or lightweight long sleeve** (in case it cools)\n- **Extra socks**\n\n### 4. **Sun Protection**\n- **Sunscreen** (SPF 30+)\n- **Lip balm with SPF**\n- **Wide-brimmed hat**\n\n### 5. **First Aid & Emergency**\n- **Basic first-aid kit** (blister care, bandages, antiseptic)\n- **Whistle**\n- **Multitool or knife**\n- **Small emergency blanket** (compact, just in case)\n- **Headlamp or flashlight** (with fresh batteries, even for daytime hikes)\n\n### 6. **Other Essentials**\n- **Cell phone (fully charged)**\n- **Personal ID**\n- **Trekking poles** (optional, helpful in moderate terrain)\n- **Small pack** (15-25L daypack; comfortable, well-fitted)\n- **Trash bag/Ziploc** (pack out all waste)\n\n---\n\n### **Safety Protocols**\n- **Tell someone your plans:** Start/end location, route, and ETA.\n- **Check weather:** Avoid hiking if storms are forecasted; be aware of heat advisories.\n- **Know your limits:** If you\u2019re not feeling well or trail conditions worsen, turn back.\n- **Watch for wildlife:** Stay alert and don\u2019t feed or approach animals.\n- **Stay on trail:** Avoid shortcuts and protect local ecosystems.\n\n---\n\n### **Backup Options**\n- Carry extra water/snacks in case your hike takes longer.\n- Have a backup daylight route or turnaround time if weather shifts.\n\n---\n\n**If you want more specific gear recommendations based on your hike location, duration, or weather prediction, let me know!**",
+      "token_usage": {
+        "prompt_tokens": 87,
+        "completion_tokens": 552,
+        "total_tokens": 639
+      },
+      "run_id": "resp_8e07e6da2dc6a178006a2b677694808190a6b2d9424eba329c"
+    },
+    {
+      "test_name": "overnight-camping",
+      "prompt": "How should I prepare for my first overnight camping trip?",
+      "response": "Great question! Preparing well is key to having a safe and enjoyable first overnight camping experience. Here\u2019s a step-by-step approach:\n\n**1. Assess Your Experience & Fitness Level**\n- If you're new to camping, pick an established, accessible campsite within 1\u20132 hours of home.\n- Choose a trail or site that matches your current fitness\u2014avoid long or steep hikes for your first trip.\n- Let someone know your plans and expected return.\n\n**2. Check Weather & Trail Conditions**\n- Monitor local weather forecasts up to your departure.\n- Avoid camping if severe weather (storms, high winds, extreme heat/cold) is predicted.\n- Research your site: Is it prone to flooding or wildlife activity? Are fire bans in effect?\n\n**3. Packing Essentials**\n- Tent (practice setting it up at home)\n- Sleeping bag (rated for expected night temps) & pad\n- Stove or fire starter (if fires are allowed) and fuel\n- Food (simple, non-perishable meals such as dehydrated meals or snacks)\n- Water (2\u20133 liters per day, plus purification method)\n- Layered clothing: moisture-wicking base, insulating layer, waterproof shell\n- Headlamp/flashlight + extra batteries\n- First aid kit: bandages, antiseptic, pain relief, personal meds\n- Navigation: map and compass or GPS\n- Multi-tool or knife\n- Backpack to carry gear comfortably\n\n**4. Safety Protocols**\n- Inform someone of your exact campsite/trail and expected return.\n- Camp with a buddy if possible.\n- Know basic first aid and carry a charged phone (off-grid sites \u2013 consider a portable charger or satellite communicator).\n- Store food securely (use bear canister if needed).\n- Practice Leave No Trace: pack out all trash, minimize fire impact.\n\n**5. Backup Options**\n- If weather turns, know the closest shelter or evacuation route.\n- Bring extra food and water in case you need to stay longer.\n- Have a rainfly or tarp for tent leaks.\n\n**6. Site Set-Up**\n- Arrive early to set up before dark.\n- Pick a flat, sheltered spot away from water sources (20m minimum) and dead trees.\n\n**Bonus Tips**\n- Practice using your gear at home (tent, stove).\n- Start with one night \u2014 build confidence before multi-night trips.\n- Bring comfort items (book, camp chair) for a better experience.\n\n**Summary**: For your first overnight, keep things simple and safe, prepare for weather and emergencies, and make sure you\u2019re comfortable with your gear and surroundings. If you have specific questions (site location, gear brands, dietary needs), let me know!",
+      "token_usage": {
+        "prompt_tokens": 83,
+        "completion_tokens": 544,
+        "total_tokens": 627
+      },
+      "run_id": "resp_18f4ee2b3910a9b3006a2b677d7c2c819099a1dcae89dddea1"
+    },
+    {
+      "test_name": "three-day-backpacking",
+      "prompt": "I'm planning a 3-day backpacking trip in the mountains in October. What are the most critical safety considerations?",
+      "response": "Absolutely, a mountain backpacking trip in October requires careful planning. **Key safety considerations include:**\n\n---\n\n### 1. Weather Variability and Preparation\n- **Monitor Forecasts:** Mountain weather can change quickly; check conditions daily before and during your trip.\n- **Prepare for Cold:** Expect temps near freezing at night, possible snow or sleet. Layer up (base, insulation, waterproof/windproof outer).\n- **Pack Rain Gear:** Bring a reliable rain jacket and pants.\n\n---\n\n### 2. Trail Conditions and Timing\n- **Shorter Daylight:** Have a reliable headlamp and extra batteries. Start hikes early to maximize daylight.\n- **Wet or Icy Terrain:** Wear sturdy, waterproof boots with good tread. Consider microspikes if snow/ice is expected.\n\n---\n\n### 3. Emergency Preparedness\n- **Navigation:** Carry a detailed map, compass, and/or GPS\u2014do not rely solely on your phone.\n- **First Aid Kit:** Include essentials\u2014bandages, antiseptic, blister care, emergency blanket, pain relievers.\n- **Communication:** If possible, carry a satellite messenger (like Garmin InReach) or a whistle for emergencies.\n\n---\n\n### 4. Packing and Gear\n- **Tent with Full Rain Fly:** Protects against wet, windy weather.\n- **Sleeping Bag:** Rated at least 10\u00b0F lower than expected lows.\n- **Food:** High-calorie, easy-to-prepare meals/snacks. Bring extra in case of delays.\n- **Water:** Treat all water sources (filter, purify, or boil). Carry enough for dry stretches.\n\n---\n\n### 5. Wildlife Awareness\n- **Bear Safety:** Store food in bear-resistant canisters or hang it away from camp. Know local wildlife risks.\n- **Encounter Protocols:** Make noise on trail; know what to do if you see wildlife.\n\n---\n\n### 6. Backup Plans\n- **Shared Itinerary:** Give your route and timelines to a trusted contact; check in at start/end if possible.\n- **Escape Routes:** Know where the nearest trailheads or shelters are in case of bad weather or injury.\n\n---\n\n**If you\u2019re less experienced or unsure about gear, consider a shorter trip or camping at established sites with easier exit options. Always err on the side of caution with mountain weather\u2014October can surprise even experienced hikers.**\n\n**Let me know your experience level and location for more tailored advice!**",
+      "token_usage": {
+        "prompt_tokens": 95,
+        "completion_tokens": 493,
+        "total_tokens": 588
+      },
+      "run_id": "resp_2f5376a110f893cb006a2b6783b724819098b6b0a7942a113f"
+    },
+    {
+      "test_name": "trail-difficulty",
+      "prompt": "How do I know if a trail is appropriate for my fitness level? I'm a beginner hiker.",
+      "response": "Great question! Choosing the right trail is key to enjoying your hike and staying safe, especially as a beginner. Here\u2019s how to assess if a trail matches your fitness and experience:\n\n**1. Check Trail Details:**\n- **Distance**: Beginners usually do best with trails 1-3 miles (1.5-5 km) long.  \n- **Elevation Gain**: Look for under 500 feet (150m) elevation gain. More elevation means steeper climbs.\n- **Trail Rating**: Look for trails rated \u201cEasy.\u201d These are typically well-marked and have gentle terrain.\n\n**2. Review Trail Conditions:**\n- **Surface**: Avoid trails with rocky, root-filled, or slippery surfaces.\n- **Weather**: If rain is forecasted, stick to maintained paths and avoid steep or muddy routes.\n\n**3. Know Yourself:**\n- If you\u2019ve rarely exercised or haven\u2019t walked more than 30 minutes at a time, start with a very short trail.\n- If you can comfortably walk an hour on level ground, choose a slightly longer or gently hilly trail.\n\n**4. Preview Trail Online:**\n- Read recent trail reviews (on AllTrails, Hiking Project, local parks websites).\n- Check for photos and comments on difficulty, maintenance, and conditions.\n\n**5. Safety Protocols:**\n- Tell someone your plan and estimated return time.\n- Carry a charged phone and, if possible, a map or GPS app.\n- Bring water, a snack, and basic first-aid.\n\n**6. Backup Options:**\n- If you arrive and the trail looks steeper, longer, or rougher than expected, choose a nearby nature path, paved trail, or turn back early.\n\n**Gear Tips:**\n- Wear athletic shoes or hiking boots with good traction.\n- Dress in layers, bring a rain jacket, and carry water.\n\n**Summary:** Match trail distance and elevation gain to your current comfort level, start small, check reviews, and always prioritize safety. If you\u2019re unsure, err on the side of caution\u2014hiking is about enjoyment and gradual progress!\n\nIf you\u2019d like specific trail recommendations for your area, let me know your location and preferred distance!",
+      "token_usage": {
+        "prompt_tokens": 92,
+        "completion_tokens": 448,
+        "total_tokens": 540
+      },
+      "run_id": "resp_1e59572bce830db0006a2b678a240481908c69ea381ceba341"
+    },
+    {
+      "test_name": "winter-hiking",
+      "prompt": "What additional gear and precautions do I need for winter hiking compared to summer?",
+      "response": "**Winter hiking** requires more gear and stricter precautions compared to summer due to cold temperatures, snow/ice, and shorter daylight. Here\u2019s what you need:\n\n---\n\n## **Additional Essential Gear**\n\n**1. Insulation and Layering**\n- *Base layer:* Moisture-wicking thermal underwear (avoid cotton)\n- *Mid layer:* Fleece or down jacket for warmth\n- *Outer layer:* Waterproof, windproof shell (jacket and pants)\n- *Extra layers:* Carry a spare fleece/down jacket\n\n**2. Footwear**\n- *Insulated waterproof boots*\n- *Wool/synthetic socks (plus extra pair)*\n- *Gaiters* (prevent snow from getting in boots)\n- *Microspikes, crampons, or snowshoes* (depend on trail snow/ice conditions)\n\n**3. Accessories**\n- *Warm hat/beanie and buff/scarf*\n- *Gloves/mittens (waterproof with liners)*\n- *Sunglasses/goggles* (for glare and snow blindness)\n- *Hand warmers/foot warmers*\n- *Headlamp* (with spare batteries; winter days are shorter)\n\n**4. Navigation**\n- *Map, compass, GPS device*\n- *Fully charged phone + external battery*\n\n**5. Emergency Supplies**\n- *Emergency blanket/bivy sack*\n- *First aid kit* (add blister treatment, chemical heat packs)\n- *Fire-starting kit* (waterproof matches/lighter, tinder)\n- *Extra food and water* (higher calorie needs; insulated water bottle to prevent freezing)\n\n**6. Backpack**\n- *Larger capacity* for additional gear\n- *Waterproof cover*\n\n---\n\n## **Precautions and Protocols**\n\n**1. Check Weather Regularly**\n- Know forecast and avoid hiking in storms or extreme cold.\n\n**2. Start Early, Plan for Darkness**\n- Days are shorter\u2014get back before dusk.\n\n**3. Know the Trail**\n- Stick to marked trails and understand winter risks (avalanche, icy terrain).\n\n**4. Group Travel**\n- Hike with at least one other person; solo winter hiking is much riskier.\n\n**5. Layer Management**\n- Don\u2019t let sweat accumulate\u2014adjust layers to stay dry.\n\n**6. Hydration and Nutrition**\n- Eat and drink more; cold increases calorie needs and dehydration risk.\n\n**7. Emergency Plan**\n- Tell someone your itinerary and expected return.\n- Carry a whistle and signaling device.\n\n**8. Avalanche Awareness**\n- Avoid avalanche-prone areas unless trained and equipped (beacon, probe, shovel).\n\n---\n\n### **Backup Options and Safety Focus**\n\n- Always have a bailout route in case the trail becomes impassable.\n- Check for open shelters or warming huts on route.\n- If weather worsens or gear fails, be ready to turn back.\n\n---\n\n**Let me know your experience level, planned trail, and local climate for personalized advice.**",
+      "token_usage": {
+        "prompt_tokens": 87,
+        "completion_tokens": 602,
+        "total_tokens": 689
+      },
+      "run_id": "resp_23b7dfacbcb3b80b006a2b678f8468819090387c5522d3247f"
+    }
+  ]
+}
